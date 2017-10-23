@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.commons.utils.ObjectUtils;
+import com.lsh.utils.ObjectUtils;
 
 /**
  * 对commons-lang3-3.6这个常用的工具类的一个更换包名的操作,为什么会如此无聊的

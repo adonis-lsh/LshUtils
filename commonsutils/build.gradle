@@ -1,7 +1,16 @@
 apply plugin: 'java'
-
+apply plugin: 'com.novoda.bintray-release'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+publish {
+    userOrg = 'bendaidai'
+    groupId = 'com.lsh'
+    artifactId = 'utils'
+    publishVersion = '0.0.1'
+    desc = '对commons-lang3-3.6做一个更改包名的操作'
+    website = 'https://github.com/adonis-lsh/LshUtils'
 }
 
 sourceCompatibility = "1.7"
